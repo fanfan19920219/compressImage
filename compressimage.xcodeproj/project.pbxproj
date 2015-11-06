@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1126751BEC7571004D1259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1126741BEC7571004D1259 /* main.m */; };
+		EF1126781BEC7571004D1259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1126771BEC7571004D1259 /* AppDelegate.m */; };
+		EF11267B1BEC7571004D1259 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11267A1BEC7571004D1259 /* ViewController.m */; };
+		EF11267E1BEC7571004D1259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF11267C1BEC7571004D1259 /* Main.storyboard */; };
+		EF1126801BEC7571004D1259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF11267F1BEC7571004D1259 /* Assets.xcassets */; };
+		EF1126831BEC7571004D1259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1126811BEC7571004D1259 /* LaunchScreen.storyboard */; };
+		EF11268E1BEC7571004D1259 /* compressimageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11268D1BEC7571004D1259 /* compressimageTests.m */; };
+		EF1126991BEC7572004D1259 /* compressimageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1126981BEC7572004D1259 /* compressimageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF11268A1BEC7571004D1259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1126681BEC7571004D1259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF11266F1BEC7571004D1259;
+			remoteInfo = compressimage;
+		};
+		EF1126951BEC7572004D1259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1126681BEC7571004D1259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF11266F1BEC7571004D1259;
+			remoteInfo = compressimage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF1126701BEC7571004D1259 /* compressimage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = compressimage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1126741BEC7571004D1259 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1126761BEC7571004D1259 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1126771BEC7571004D1259 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1126791BEC7571004D1259 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF11267A1BEC7571004D1259 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF11267D1BEC7571004D1259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF11267F1BEC7571004D1259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1126821BEC7571004D1259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1126841BEC7571004D1259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1126891BEC7571004D1259 /* compressimageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compressimageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF11268D1BEC7571004D1259 /* compressimageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = compressimageTests.m; sourceTree = "<group>"; };
+		EF11268F1BEC7571004D1259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1126941BEC7572004D1259 /* compressimageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compressimageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1126981BEC7572004D1259 /* compressimageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = compressimageUITests.m; sourceTree = "<group>"; };
+		EF11269A1BEC7572004D1259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF11266D1BEC7571004D1259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1126861BEC7571004D1259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1126911BEC7572004D1259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1126671BEC7571004D1259 = {
+			isa = PBXGroup;
+			children = (
+				EF1126721BEC7571004D1259 /* compressimage */,
+				EF11268C1BEC7571004D1259 /* compressimageTests */,
+				EF1126971BEC7572004D1259 /* compressimageUITests */,
+				EF1126711BEC7571004D1259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1126711BEC7571004D1259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1126701BEC7571004D1259 /* compressimage.app */,
+				EF1126891BEC7571004D1259 /* compressimageTests.xctest */,
+				EF1126941BEC7572004D1259 /* compressimageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1126721BEC7571004D1259 /* compressimage */ = {
+			isa = PBXGroup;
+			children = (
+				EF1126761BEC7571004D1259 /* AppDelegate.h */,
+				EF1126771BEC7571004D1259 /* AppDelegate.m */,
+				EF1126791BEC7571004D1259 /* ViewController.h */,
+				EF11267A1BEC7571004D1259 /* ViewController.m */,
+				EF11267C1BEC7571004D1259 /* Main.storyboard */,
+				EF11267F1BEC7571004D1259 /* Assets.xcassets */,
+				EF1126811BEC7571004D1259 /* LaunchScreen.storyboard */,
+				EF1126841BEC7571004D1259 /* Info.plist */,
+				EF1126731BEC7571004D1259 /* Supporting Files */,
+			);
+			path = compressimage;
+			sourceTree = "<group>";
+		};
+		EF1126731BEC7571004D1259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1126741BEC7571004D1259 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF11268C1BEC7571004D1259 /* compressimageTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF11268D1BEC7571004D1259 /* compressimageTests.m */,
+				EF11268F1BEC7571004D1259 /* Info.plist */,
+			);
+			path = compressimageTests;
+			sourceTree = "<group>";
+		};
+		EF1126971BEC7572004D1259 /* compressimageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1126981BEC7572004D1259 /* compressimageUITests.m */,
+				EF11269A1BEC7572004D1259 /* Info.plist */,
+			);
+			path = compressimageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF11266F1BEC7571004D1259 /* compressimage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF11269D1BEC7572004D1259 /* Build configuration list for PBXNativeTarget "compressimage" */;
+			buildPhases = (
+				EF11266C1BEC7571004D1259 /* Sources */,
+				EF11266D1BEC7571004D1259 /* Frameworks */,
+				EF11266E1BEC7571004D1259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = compressimage;
+			productName = compressimage;
+			productReference = EF1126701BEC7571004D1259 /* compressimage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1126881BEC7571004D1259 /* compressimageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1126A01BEC7572004D1259 /* Build configuration list for PBXNativeTarget "compressimageTests" */;
+			buildPhases = (
+				EF1126851BEC7571004D1259 /* Sources */,
+				EF1126861BEC7571004D1259 /* Frameworks */,
+				EF1126871BEC7571004D1259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF11268B1BEC7571004D1259 /* PBXTargetDependency */,
+			);
+			name = compressimageTests;
+			productName = compressimageTests;
+			productReference = EF1126891BEC7571004D1259 /* compressimageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF1126931BEC7572004D1259 /* compressimageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1126A31BEC7572004D1259 /* Build configuration list for PBXNativeTarget "compressimageUITests" */;
+			buildPhases = (
+				EF1126901BEC7572004D1259 /* Sources */,
+				EF1126911BEC7572004D1259 /* Frameworks */,
+				EF1126921BEC7572004D1259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1126961BEC7572004D1259 /* PBXTargetDependency */,
+			);
+			name = compressimageUITests;
+			productName = compressimageUITests;
+			productReference = EF1126941BEC7572004D1259 /* compressimageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1126681BEC7571004D1259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ylk;
+				TargetAttributes = {
+					EF11266F1BEC7571004D1259 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EF1126881BEC7571004D1259 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EF11266F1BEC7571004D1259;
+					};
+					EF1126931BEC7572004D1259 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EF11266F1BEC7571004D1259;
+					};
+				};
+			};
+			buildConfigurationList = EF11266B1BEC7571004D1259 /* Build configuration list for PBXProject "compressimage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1126671BEC7571004D1259;
+			productRefGroup = EF1126711BEC7571004D1259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF11266F1BEC7571004D1259 /* compressimage */,
+				EF1126881BEC7571004D1259 /* compressimageTests */,
+				EF1126931BEC7572004D1259 /* compressimageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF11266E1BEC7571004D1259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1126831BEC7571004D1259 /* LaunchScreen.storyboard in Resources */,
+				EF1126801BEC7571004D1259 /* Assets.xcassets in Resources */,
+				EF11267E1BEC7571004D1259 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1126871BEC7571004D1259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1126921BEC7572004D1259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF11266C1BEC7571004D1259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF11267B1BEC7571004D1259 /* ViewController.m in Sources */,
+				EF1126781BEC7571004D1259 /* AppDelegate.m in Sources */,
+				EF1126751BEC7571004D1259 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1126851BEC7571004D1259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF11268E1BEC7571004D1259 /* compressimageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1126901BEC7572004D1259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1126991BEC7572004D1259 /* compressimageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF11268B1BEC7571004D1259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF11266F1BEC7571004D1259 /* compressimage */;
+			targetProxy = EF11268A1BEC7571004D1259 /* PBXContainerItemProxy */;
+		};
+		EF1126961BEC7572004D1259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF11266F1BEC7571004D1259 /* compressimage */;
+			targetProxy = EF1126951BEC7572004D1259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF11267C1BEC7571004D1259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF11267D1BEC7571004D1259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1126811BEC7571004D1259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1126821BEC7571004D1259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF11269B1BEC7572004D1259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF11269C1BEC7572004D1259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF11269E1BEC7572004D1259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = compressimage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.medsci.www.compressimage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF11269F1BEC7572004D1259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = compressimage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.medsci.www.compressimage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF1126A11BEC7572004D1259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = compressimageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.medsci.www.compressimageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/compressimage.app/compressimage";
+			};
+			name = Debug;
+		};
+		EF1126A21BEC7572004D1259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = compressimageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.medsci.www.compressimageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/compressimage.app/compressimage";
+			};
+			name = Release;
+		};
+		EF1126A41BEC7572004D1259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = compressimageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.medsci.www.compressimageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = compressimage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF1126A51BEC7572004D1259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = compressimageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.medsci.www.compressimageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = compressimage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF11266B1BEC7571004D1259 /* Build configuration list for PBXProject "compressimage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF11269B1BEC7572004D1259 /* Debug */,
+				EF11269C1BEC7572004D1259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF11269D1BEC7572004D1259 /* Build configuration list for PBXNativeTarget "compressimage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF11269E1BEC7572004D1259 /* Debug */,
+				EF11269F1BEC7572004D1259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF1126A01BEC7572004D1259 /* Build configuration list for PBXNativeTarget "compressimageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1126A11BEC7572004D1259 /* Debug */,
+				EF1126A21BEC7572004D1259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF1126A31BEC7572004D1259 /* Build configuration list for PBXNativeTarget "compressimageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1126A41BEC7572004D1259 /* Debug */,
+				EF1126A51BEC7572004D1259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1126681BEC7571004D1259 /* Project object */;
+}
