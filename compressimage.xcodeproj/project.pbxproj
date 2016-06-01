@@ -15,6 +15,7 @@
 		EF1126831BEC7571004D1259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1126811BEC7571004D1259 /* LaunchScreen.storyboard */; };
 		EF11268E1BEC7571004D1259 /* compressimageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF11268D1BEC7571004D1259 /* compressimageTests.m */; };
 		EF1126991BEC7572004D1259 /* compressimageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1126981BEC7572004D1259 /* compressimageUITests.m */; };
+		EF1126A71BEC76C6004D1259 /* 中二病.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF1126A61BEC76C6004D1259 /* 中二病.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EF1126941BEC7572004D1259 /* compressimageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = compressimageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1126981BEC7572004D1259 /* compressimageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = compressimageUITests.m; sourceTree = "<group>"; };
 		EF11269A1BEC7572004D1259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1126A61BEC76C6004D1259 /* 中二病.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中二病.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				EF1126791BEC7571004D1259 /* ViewController.h */,
 				EF11267A1BEC7571004D1259 /* ViewController.m */,
 				EF11267C1BEC7571004D1259 /* Main.storyboard */,
+				EF1126A61BEC76C6004D1259 /* 中二病.jpg */,
 				EF11267F1BEC7571004D1259 /* Assets.xcassets */,
 				EF1126811BEC7571004D1259 /* LaunchScreen.storyboard */,
 				EF1126841BEC7571004D1259 /* Info.plist */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1126A71BEC76C6004D1259 /* 中二病.jpg in Resources */,
 				EF1126831BEC7571004D1259 /* LaunchScreen.storyboard in Resources */,
 				EF1126801BEC7571004D1259 /* Assets.xcassets in Resources */,
 				EF11267E1BEC7571004D1259 /* Main.storyboard in Resources */,
